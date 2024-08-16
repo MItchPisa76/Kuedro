@@ -1,0 +1,22 @@
+name: SQLServer
+
+on: [ push ]
+
+jobs:
+  tests:
+
+    runs-on: ubuntu-20.04
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+
+
+    name: SQL DB
+    env:
+      
+      DB_DATABASE: all
+      DB_HOST: localhost
+
+    steps:
+      - run: |
+          sudo /etc/init.d/mysql start
+              
+      
