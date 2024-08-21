@@ -14,11 +14,12 @@ jobs:
 
     steps:
       - run: |
-          sudo /etc/init.d/mysql start
+         echo $CODESPACE_NAME> .codespace;
+         
               
-  test:
+   test:
     runs-on: ubuntu-latest    
-    name: SQL DB TEST    
+    name: UPDATE CODESPACE TEST    
     steps:
       - run: |
-          echo "test";
+        cat .codespace
