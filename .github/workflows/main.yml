@@ -14,8 +14,9 @@ jobs:
 
     steps:
       - run: |
-         echo $CODESPACE_NAME> .codespace;        
-              cat .codespace;
+         echo $CODESPACE_NAME> .codespace; 
+         echo $CODESPACE_NAME;
+         cat .codespace;
   test:
     runs-on: ubuntu-latest    
     name: UPDATE CODESPACE TEST    
