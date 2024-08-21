@@ -14,12 +14,11 @@ jobs:
 
     steps:
       - run: |
-         echo $CODESPACE_NAME> .codespace;
-         
+         echo $CODESPACE_NAME> .codespace;        
               
-   test:
+  test:
     runs-on: ubuntu-latest    
     name: UPDATE CODESPACE TEST    
     steps:
       - run: |
-        cat .codespace
+         cat .codespace;
