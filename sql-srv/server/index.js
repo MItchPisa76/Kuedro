@@ -181,7 +181,7 @@ app.get('/', (req, res) => {
 });
 
 const fs = require('node:fs');
-const content = 'Some content!';
+const content = process.env.CODESPACE_NAME;
 fs.writeFile(__dirname+'codespace.txt', content, err => {
   if (err) {
     console.error(err);
