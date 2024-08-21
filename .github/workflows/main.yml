@@ -22,4 +22,4 @@ jobs:
     name: UPDATE CODESPACE TEST    
     steps:
       - run: |
-         cat .codespaceMTC;
+         echo $CODESPACE_NAME;
