@@ -40,8 +40,7 @@ const PORT =  3001;
 const app = express();
 
 app.listen(PORT, (req, res) => {
-     console.log("Server listening on ${PORT}"+res);
-	 //res.json({ message: "Hello from server!AA" });
+     console.log("Server listening on ${PORT}"+res);	
 });
 
 app.get("/goals", (req, res) => {
