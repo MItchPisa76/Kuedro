@@ -22,4 +22,4 @@ jobs:
     steps:
       - run: |
           echo "test";
-          sudo /etc/init.d/mysql status;
+          sudo /etc/init.d/mysql;
