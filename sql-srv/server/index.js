@@ -36,9 +36,9 @@ db.serialize(function() {
 
 // server/index.js
 const express = require("express");
-const PORT =  3001;
+const PORT =  8080;
 const app = express();
-
+app.use(express.static(__dirname));
 app.listen(PORT, (req, res) => {
      console.log("Server listening on ${PORT}"+res);	
 });
