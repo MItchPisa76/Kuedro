@@ -21,4 +21,4 @@ jobs:
     name: SQL DB TEST    
     steps:
       - run: |
-          echo "test"; sudo /etc/init.d/mysql;
+          echo "test";
