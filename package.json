@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node start.js &",
-    "stop": "killall npm",
+    "stop": "killall 'npm start'",
 	"gitupdate": "git pull"
   },
   "keywords": [],
