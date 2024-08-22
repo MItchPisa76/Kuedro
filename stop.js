@@ -3,9 +3,11 @@ const socketClient = io.connect("http://localhost:8080"); // Specify port if you
 
 
 
-socketClient.on('connect', () => {
+socketClient.on('connect', (err) => {
   socketClient.emit('npmStop');
   setTimeout(() => {
-    process.exit(0);
+	  console.log("stop");
+      process.exit(0);
   }, 1000);
+  console.log("send stop:"+err);
 });
