@@ -89,7 +89,7 @@ app.get("/goals", (req, res) => {
 
 const fs = require('node:fs');
 if (process.env.CODESPACE_NAME == null)
-	process.env.CODESPACE_NAME = "test";
+	process.env.CODESPACE_NAME = "localhost:"+PORT;
 const content = process.env.CODESPACE_NAME;
 fs.writeFile(__dirname+'/codespace2.txt', content, err => {
   if (err) {
