@@ -91,7 +91,7 @@ const fs = require('node:fs');
 if (process.env.CODESPACE_NAME == null)
 	process.env.CODESPACE_NAME = "test";
 const content = process.env.CODESPACE_NAME;
-fs.writeFile(__dirname+'codespace2.txt', content, err => {
+fs.writeFile(__dirname+'/codespace2.txt', content, err => {
   if (err) {
     console.error(err);
   } else {
@@ -99,9 +99,8 @@ fs.writeFile(__dirname+'codespace2.txt', content, err => {
   }
 });
 
+
 app.use(express.static(__dirname+"/"))
 app.listen(PORT,(req, res) => {
 	 console.log(req);
 });
-
-console.log(__dirname + "\\");
