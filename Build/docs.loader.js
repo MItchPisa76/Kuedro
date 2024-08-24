@@ -115,6 +115,7 @@ function createUnityInstance(canvas, config, onProgress) {
   function preventDefault(e) {
     e.preventDefault();
   }
+  
 
   disabledCanvasEvents.forEach(function (disabledCanvasEvent) {
     canvas.addEventListener(disabledCanvasEvent, preventDefault);
