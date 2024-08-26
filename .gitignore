@@ -2,7 +2,6 @@
 #a
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/[Ss]olux/
 /sql-srv/node_modules/
 /node_modules/
 
