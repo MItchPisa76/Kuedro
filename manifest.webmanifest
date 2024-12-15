@@ -3,11 +3,11 @@
     "short_name": "KuedroPlayer",
     "start_url": "index.html",
     "display": "fullscreen",
-    "background_color": "#CCCCCC",
-    "theme_color": "#fff",
+    "background_color": "#231F20",
+    "theme_color": "#000",
     "description": "Mitch's Kuedro Engine",
     "icons": [{
-      "src": "TemplateData/icons/unity-logo-light.png",
+      "src": "TemplateData/icons/unity-logo-dark.png",
       "sizes": "144x144",
       "type": "image/png",
       "purpose": "any maskable"
