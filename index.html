@@ -59,31 +59,16 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/docs.loader.js";
       var config = {
-        dataUrl: buildUrl + "/docs.data.unityweb",
-        frameworkUrl: buildUrl + "/docs.framework.js.unityweb",
-        codeUrl: buildUrl + "/docs.wasm.unityweb",
+        dataUrl: buildUrl + "/docs.data.gz",
+        frameworkUrl: buildUrl + "/docs.framework.js.gz",
+        codeUrl: buildUrl + "/docs.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "MItch ",
         productName: "Kuedro",
         productVersion: "3",
         showBanner: unityShowBanner,
       };
-	  
-	  mergeInto(LibraryManager.library, {
 
-  addLevel: function (str) {
-    window.alert("Hello "+str);
-  }
-
-});
-
-
-
-mergeInto(LibraryManager.library, {
-
-  resetLevelsDiv: function () {
-    window.alert("Reset, world!");
-  }});
       // By default, Unity keeps WebGL canvas render target size matched with
       // the DOM size of the canvas element (scaled by window.devicePixelRatio)
       // Set this to false if you want to decouple this synchronization from
@@ -103,7 +88,7 @@ mergeInto(LibraryManager.library, {
 
         // To lower canvas resolution on mobile devices to gain some
         // performance, uncomment the following line:
-         config.devicePixelRatio = 1;
+        // config.devicePixelRatio = 1;
 
 
       } else {
