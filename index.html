@@ -97,6 +97,11 @@
         canvas.style.width = "960px";
         canvas.style.height = "600px";
       }
+ window.addEventListener("load", function () {
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker.register("ServiceWorker.js");
+        }
+      });
 
       loadingBar.style.display = "block";
 
