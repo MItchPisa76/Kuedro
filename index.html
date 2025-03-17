@@ -52,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/docs.loader.js";
+      var loaderUrl = buildUrl + "/WEBGL.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/docs.data.unityweb",
-        frameworkUrl: buildUrl + "/docs.framework.js.unityweb",
-        codeUrl: buildUrl + "/docs.wasm.unityweb",
+        dataUrl: buildUrl + "/WEBGL.data.unityweb",
+        frameworkUrl: buildUrl + "/WEBGL.framework.js.unityweb",
+        codeUrl: buildUrl + "/WEBGL.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "MItch ",
         productName: "Kuedro",
@@ -102,7 +102,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/docs.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/WEBGL.jpg') center / cover";
       document.querySelector("#unity-loading-bar").style.display = "block";
 
       var script = document.createElement("script");

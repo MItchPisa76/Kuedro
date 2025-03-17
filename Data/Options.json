@@ -1,0 +1,29 @@
+"Bussola": {
+"bussolaOnTop":"True", "firstView":"Ze", "cameraButtons":"False", "LTRange":"0.211", "HTRange":"0.259", "zoom":"1", "cm":"flat", "lookAtCamera":"True"
+}, "CursorMove": {
+"stikyAA":"False", "showUIImage":"False", "snapped":"STIKY", "dissolve":"False", "separate":"True", "clampMode":"MAXSTAY"
+}, "JollyMino": {
+"hideJolly":"True", "cubeAssest":"0.6"
+}, "HintCrawlerMB": {
+"showPartial":"True", "showMenu":"False"
+}, "SQLiteDatabase": {
+"use64Encription":"True", "SQLite_Server_Address":"https://mtcsqlitekuedro.ddnsfree.com:3004", "SQLite_TOKEN":"7G8FKIKam_yN4uU-xdbXc4zoDt9bCjRmaC35QuMAiWLPhd--aSaSTQ"
+}, "Mino": {
+"dragSpeed":"0.5", "moveSpeed":"0.5", "clampSpeed":"3", "easeInSelector":"0.5", "easePower":"3", "ghostTransparency":"0.64", "backSpeed":"40", "optimizeRotations":"False"
+}, "camFixed": {
+"angularDrag":"0.3", "displayEuler":{"x":45.0,"y":45.0,"z":5.0}
+}, "Camera": {
+"divider":"2", "focusOnTM":"Solution_Center"
+}, "ScopeClass": {
+"SCOPE_user":"True", "SCOPE_expert":"True", "SCOPE_hard":"True", "SCOPE_level":"True"
+}, "MTCOptionsManager": {
+"forceDBOut":"True", "Template":"Main", "SubTemplateTag":"", "saveLastBussolaConfig":"True", "restoreLastBussolaConfig":"True"
+}, "Hints": {
+"Blind Areas": {
+"findBlindAreas":"False", "showBlindAreas":"False", "showProblems":"False"
+}
+}, "Solution": {
+"defaultGoal":"Square8x8"
+}, "SolutionListController": {
+"JSON_GoalsA_URI":"WEBGL\data\GoalsA.json", "JSON_GoalsB_URI":"WEBGL\data\GoalsB.json", "JSON_GoalsC_URI":"WEBGL\data\GoalsC.json"
+}
