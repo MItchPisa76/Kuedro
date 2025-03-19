@@ -25,5 +25,5 @@
 }, "Solution": {
 "defaultGoal":"Square8x8"
 }, "SolutionListController": {
-"JSON_GoalsA_URI":"WEBGL\data\GoalsA.json", "JSON_GoalsB_URI":"WEBGL\data\GoalsB.json", "JSON_GoalsC_URI":"WEBGL\data\GoalsC.json"
+"JSON_GoalsA_URI":"..\Kuedro_pub\data\GoalsA.json", "JSON_GoalsB_URI":"..\Kuedro_pub\data\GoalsB.json", "JSON_GoalsC_URI":"..\Kuedro_pub\data\GoalsC.json"
 }
