@@ -1,7 +1,7 @@
 "Bussola": {
-"bussolaOnTop":"False", "firstView":"Ze", "cameraButtons":"True", "LTRange":"0.5", "HTRange":"0.723", "zoom":"7", "cm":"N4", "lookAtCamera":"True"
+"bussolaOnTop":"False", "firstView":"ZeSW", "cameraButtons":"True", "LTRange":"0.5", "HTRange":"0.723", "zoom":"7", "cm":"TOP", "tm":"TOP", "lookAtCamera":"True"
 }, "CursorMove": {
-"stikyAA":"False", "showUIImage":"False", "snapped":"DIV3", "dissolve":"True", "separate":"True", "clampMode":"MAXSTAY"
+"stikyAA":"False", "showUIImage":"False", "snapped":"DIV3", "dissolve":"True", "separate":"True", "clampMode":"NONE"
 }, "JollyMino": {
 "hideJolly":"False", "cubeAssest":"0.6"
 }, "HintCrawlerMB": {
@@ -9,7 +9,7 @@
 }, "SQLiteDatabase": {
 "use64Encription":"True", "SQLite_Server_Address":"https://mtcsqlitekuedro.ddnsfree.com:3004", "SQLite_TOKEN":"7G8FKIKam_yN4uU-xdbXc4zoDt9bCjRmaC35QuMAiWLPhd--aSaSTQ"
 }, "Mino": {
-"dragSpeed":"0.8", "moveSpeed":"-0.6", "clampSpeed":"3.5", "easeInSelector":"0.9", "easePower":"0.8", "ghostTransparency":"0.64", "backSpeed":"120", "optimizeRotations":"False"
+"dragSpeed":"0.6", "moveSpeed":"-1", "clampSpeed":"3.5", "easeInSelector":"0.9", "easePower":"0.8", "ghostTransparency":"0.3", "backSpeed":"120", "optimizeRotations":"False"
 }, "camFixed": {
 "angularDrag":"0", "displayEuler":{"x":0.0,"y":-90.0,"z":45.0}
 }, "Camera": {
@@ -17,7 +17,7 @@
 }, "ScopeClass": {
 "SCOPE_user":"True", "SCOPE_expert":"True", "SCOPE_hard":"True", "SCOPE_level":"True"
 }, "MTCOptionsManager": {
-"forceDBOut":"False", "Template":"Main", "SubTemplateTag":"", "saveLastBussolaConfig":"True", "restoreLastBussolaConfig":"True"
+"forceDBOutl":"True", "Template":"Main", "SubTemplateTag":"", "saveLastBussolaConfig":"True", "restoreLastBussolaConfig":"True"
 }, "Hints": {
 "Blind Areas": {
 "findBlindAreas":"True", "showBlindAreas":"False", "showProblems":"True"
