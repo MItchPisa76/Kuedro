@@ -1,7 +1,7 @@
 "Bussola": {
 "bussolaOnTop":"False", "firstView":"ZeSW", "cameraButtons":"True", "LTRange":"0.5", "HTRange":"0.723", "zoom":"7", "cm":"TOP", "tm":"TOP", "lookAtCamera":"True"
 }, "CursorMove": {
-"stikyAA":"False", "showUIImage":"False", "snapped":"DIV3", "dissolve":"True", "separate":"True", "clampMode":"NONE"
+"stikyAA":"False", "showUIImage":"False", "snapped":"DIV3", "dissolve":"True", "separate":"True", "clampMode":"MINOFF"
 }, "JollyMino": {
 "hideJolly":"False", "cubeAssest":"0.6"
 }, "HintCrawlerMB": {
@@ -13,7 +13,7 @@
 }, "camFixed": {
 "angularDrag":"0", "displayEuler":{"x":0.0,"y":-90.0,"z":45.0}
 }, "Camera": {
-"divider":"3", "focusOnTM":"Focus_and_follow"
+"divider":"3", "focusOnTM":"Focus_and_follow", "gestureMode":"EXPERT"
 }, "ScopeClass": {
 "SCOPE_user":"True", "SCOPE_expert":"True", "SCOPE_hard":"True", "SCOPE_level":"True"
 }, "MTCOptionsManager": {
