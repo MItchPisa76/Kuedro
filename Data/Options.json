@@ -1,9 +1,9 @@
 "Bussola": {
-"bussolaOnTop":"False", "firstView":"ZeSW", "cameraButtons":"True", "LTRange":"0.5", "HTRange":"0.723", "zoom":"7", "cm":"TOP", "tm":"TOP", "lookAtCamera":"True"
+"bussolaOnTop":"True", "firstView":"ZeSW", "cameraButtons":"True", "LTRange":"0.5", "HTRange":"0.723", "zoom":"7", "cm":"TOP", "tm":"TOP", "lookAtCamera":"True"
 }, "CursorMove": {
-"stikyAA":"False", "showUIImage":"False", "snapped":"DIV3", "dissolve":"True", "separate":"True", "clampMode":"MINOFF"
+"useImageUI":"True", "showUIImage":"False", "snapped":"FREE", "dissolve":"True", "separate":"True", "clampMode":"MAXSTAY"
 }, "JollyMino": {
-"hideJolly":"False", "cubeAssest":"0.6"
+"startJollyMode":"True", "cubeAssest":"0.6"
 }, "HintCrawlerMB": {
 "showPartial":"True", "showMenu":"False"
 }, "SQLiteDatabase": {
