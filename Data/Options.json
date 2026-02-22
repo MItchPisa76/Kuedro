@@ -7,7 +7,7 @@
 }, "HintCrawlerMB": {
 "showPartial":"True", "showMenu":"False"
 }, "SQLiteDatabase": {
-"use64Encription":"false", "SQLite_Server_Address":"https://100.98.32.108:3004", "SQLite_TOKEN":"7G8FKIKam_yN4uU-xdbXc4zoDt9bCjRmaC35QuMAiWLPhd--aSaSTQ"
+"use64Encription":"True", "SQLite_Server_Address":"https://100.98.32.108:3004", "SQLite_TOKEN":"7G8FKIKam_yN4uU-xdbXc4zoDt9bCjRmaC35QuMAiWLPhd--aSaSTQ"
 }, "Mino": {
 "dragSpeed":"0.6", "moveSpeed":"-1", "clampSpeed":"3.5", "easeInSelector":"0.9", "easePower":"0.8", "ghostTransparency":"0.3", "backSpeed":"120", "optimizeRotations":"False"
 }, "camFixed": {
