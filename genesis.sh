@@ -6,9 +6,9 @@ git clone
 REPO_DIR="kuedro"
 REPO_URL="https://github.com/MItchPisa76/Kuedro.git"
   cd "$REPO_DIR" || exit
-if [ ! -d "$REPO_DIR" ]; then
+if [ ! -d ".git" ]; then
     echo "Clonazione iniziale..."
-    git clone "$REPO_URL" .
+    git clone "$REPO_URL"
 else
     echo "Aggiornamento con salvataggio modifiche locali..."
       
