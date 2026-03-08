@@ -2,12 +2,12 @@ version: '3'
 services:
   app:
     image: nginx:latest
-    container_name: Keudro
-    working_dir: /usr/share/nginx/html/kuedro
+    container_name: Kuedro
+    working_dir: /usr/share/nginx/html
     volumes:
-      - /Web/Kuedro:/usr/share/nginx/html/kuedro      
+      - /share/Web/Kuedro:/usr/share/nginx/html/kuedro      
     ports:
       - "32768:80"
     # IMPORTANTE: Aggiungi 'sh' prima del percorso
-    command: sh genesis.sh
+    command: sh kuedro/genesis.sh
     restart: always
