@@ -1,7 +1,6 @@
 
 apt update
 apt install -y git
-git clone 
 
 REPO_DIR="kuedro"
 REPO_URL="https://github.com/MItchPisa76/Kuedro.git"
