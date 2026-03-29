@@ -1,29 +1,35 @@
 "Bussola": {
-"bussolaOnTop":"True", "firstView":"ZeSW", "cameraButtons":"True", "LTRange":"0.5", "HTRange":"0.723", "zoom":"7", "cm":"TOP", "tm":"TOP", "lookAtCamera":"True"
+"bussolaOnTop":"False", "firstView":"NaNE", "cameraButtons":"True", "LTRange":"0.51", "HTRange":"0.71", "zoom":"8", "cm":"NE4ZE4", "tm":"TOP", "lookAtCamera":"True"
 }, "CursorMove": {
-"useImageUI":"True", "showUIImage":"False", "snapped":"FREE", "dissolve":"True", "separate":"True", "clampMode":"MAXSTAY"
+"useImageUI":"True", "showUIImage":"False", "snapped":"FREE", "dissolve":"False", "separate":"True", "clampMode":"MAXSTAY"
 }, "JollyMino": {
 "startJollyMode":"True", "cubeAssest":"0.6"
+}, "GUISelector": {
+"hdelta":"0.5", "wdelta":"0.5"
 }, "HintCrawlerMB": {
 "showPartial":"True", "showMenu":"False"
 }, "SQLiteDatabase": {
 "use64Encription":"True", "SQLite_Server_Address":"https://kuedro.myqnapcloud.com:3004", "SQLite_TOKEN":"7G8FKIKam_yN4uU-xdbXc4zoDt9bCjRmaC35QuMAiWLPhd--aSaSTQ"
-}, "Mino": {
-"dragSpeed":"0.6", "moveSpeed":"-1", "clampSpeed":"3.5", "easeInSelector":"0.9", "easePower":"0.8", "ghostTransparency":"0.3", "backSpeed":"120", "optimizeRotations":"False"
-}, "camFixed": {
-"angularDrag":"0", "displayEuler":{"x":0.0,"y":-90.0,"z":45.0}
 }, "Camera": {
-"divider":"3", "focusOnTM":"Focus_and_follow", "gestureMode":"EXPERT"
+"divider":"2", "focusOnTM":"Solution_Center", "gestureMode":"NONE"
+}, "colors": {
+"mino": {
+"basecolor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}
+}
+}, "Mino": {
+"dragSpeed":"0.5", "moveSpeed":"0.5", "clampSpeed":"3", "easeInSelector":"0.5", "easePower":"3", "ghostTransparency":"0.64", "backSpeed":"40", "optimizeRotations":"False"
+}, "camFixed": {
+"angularDrag":"0.051", "displayEuler":{"x":45.0,"y":45.0,"z":5.0}
 }, "ScopeClass": {
 "SCOPE_user":"True", "SCOPE_expert":"True", "SCOPE_hard":"True", "SCOPE_level":"True"
 }, "MTCOptionsManager": {
-"forceDBOutl":"True", "Template":"Main", "SubTemplateTag":"", "saveLastBussolaConfig":"True", "restoreLastBussolaConfig":"True"
+"forceDBOutl":"False", "Template":"Main", "SubTemplateTag":"", "saveLastBussolaConfig":"True", "restoreLastBussolaConfig":"True"
 }, "Hints": {
 "Blind Areas": {
-"findBlindAreas":"True", "showBlindAreas":"False", "showProblems":"True"
+"findBlindAreas":"False", "showBlindAreas":"False", "showProblems":"False"
 }
 }, "Solution": {
 "defaultGoal":"Square8x8"
 }, "SolutionListController": {
-"JSON_GoalsA_URI":"Data/GoalsA.json", "JSON_GoalsB_URI":"Data/GoalsB.json", "JSON_GoalsC_URI":"Data/GoalsC.json"
+"JSON_GoalsA_URI":"Data\\\\\\\\\\\\\\\\GoalsA.json", "JSON_GoalsB_URI":"Data\\\\\\\\\\\\\\\\GoalsB.json", "JSON_GoalsC_URI":"Data\\\\\\\\\\\\\\\\GoalsC.json"
 }
