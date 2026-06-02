@@ -1,0 +1,37 @@
+"CursorMove": {
+"useImageUI":, "showUIImage":, "snapped":, "dissolve":, "separate":, "clampMode":
+}, "Camera": {
+"divider":, "fixedUpVector":, "lerpRotation":, "lerpMotion":, "focusOnTM":, "invertX":, "invertY":, "gestureMode":, "gestureChangeThreshold":, "expertGestureChangeThreshold":, "gestureTHMin":, "gestureTHMax":
+}, "MTCSelectionManagerCenter": {
+"background":, "FairyTailElement": {
+"enableArrows":, "enableFairy":
+}
+}, "JollyMino": {
+"startJollyMode":, "cubeAssest":
+}, "HintCrawlerMB": {
+"showPartial":, "showMenu":
+}, "SQLiteDatabase": {
+"use64Encription":, "SQLite_Server_Address":, "SQLite_TOKEN":
+}, "colors": {
+"mino": {
+"basecolor":
+}
+}, "Mino": {
+"dragSpeed":, "moveSpeed":, "clampSpeed":, "easeInSelector":, "easePower":, "ghostTransparency":, "backSpeed":, "optimizeRotations":
+}, "camFixed": {
+"angularDrag":, "displayEuler":
+}, "Hints": {
+"Blind Areas": {
+"findBlindAreas":, "showBlindAreas":, "showProblems":
+}
+}, "Solution": {
+"defaultGoal":, "defaultSolution":, "defaultLevel":
+}, "MTCOptionsManager": {
+"saveLastBussolaConfig":, "restoreLastBussolaConfig":, "hideOptionsButton":, "SubTemplateTag":
+}, "SolutionListController": {
+"JSON_GoalsA_URI":, "JSON_GoalsB_URI":, "JSON_GoalsC_URI":
+}, "ScopeClass": {
+"SCOPE_user":, "SCOPE_expert":, "SCOPE_hard":, "SCOPE_level":
+}, "Bussola": {
+"bussolaOnTop":, "firstView":, "cameraButtons":, "LTRange":, "HTRange":, "zoom":, "cameraModes_mask":, "tm":, "showTag":, "enableTag":, "lookAtCamera":
+}

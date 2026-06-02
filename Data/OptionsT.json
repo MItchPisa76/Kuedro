@@ -1,0 +1,37 @@
+"CursorMove": {
+"useImageUI":"True", "showUIImage":"False", "snapped":"FREE", "dissolve":"False", "separate":"True", "clampMode":"MAXSTAY"
+}, "Camera": {
+"divider":"2", "fixedUpVector":"False", "lerpRotation":"8.8", "lerpMotion":"0.85", "focusOnTM":"Solution_Center", "invertX":"False", "invertY":"False", "gestureMode":"STEPPER", "gestureChangeThreshold":"10", "expertGestureChangeThreshold":"30", "gestureTHMin":"0.3", "gestureTHMax":"0.5"
+}, "MTCSelectionManagerCenter": {
+"background":{"r":1.0,"g":0.7967914342880249,"b":0.4398413300514221,"a":1.0}, "FairyTailElement": {
+"enableArrows":"False", "enableFairy":"False"
+}
+}, "JollyMino": {
+"startJollyMode":"True", "cubeAssest":"1"
+}, "HintCrawlerMB": {
+"showPartial":"True", "showMenu":"False"
+}, "SQLiteDatabase": {
+"use64Encription":"True", "SQLite_Server_Address":"https://kuedro.myqnapcloud.com:3004", "SQLite_TOKEN":"7G8FKIKam_yN4uU-xdbXc4zoDt9bCjRmaC35QuMAiWLPhd--aSaSTQ"
+}, "colors": {
+"mino": {
+"basecolor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}
+}
+}, "Mino": {
+"dragSpeed":"0.5", "moveSpeed":"-5", "clampSpeed":"4", "easeInSelector":"0.8", "easePower":"5", "ghostTransparency":"0.64", "backSpeed":"28", "optimizeRotations":"False"
+}, "camFixed": {
+"angularDrag":"0", "displayEuler":{"x":45.0,"y":45.0,"z":5.0}
+}, "Hints": {
+"Blind Areas": {
+"findBlindAreas":"True", "showBlindAreas":"False", "showProblems":"True"
+}
+}, "Solution": {
+"defaultGoal":"Square8x8", "defaultSolution":"5", "defaultLevel":"5"
+}, "MTCOptionsManager": {
+"saveLastBussolaConfig":"True", "restoreLastBussolaConfig":"True", "hideOptionsButton":"True", "SubTemplateTag":""
+}, "SolutionListController": {
+"JSON_GoalsA_URI":"Data/GoalsA.json", "JSON_GoalsB_URI":"Data/GoalsB.json", "JSON_GoalsC_URI":"Data/GoalsC.json"
+}, "ScopeClass": {
+"SCOPE_user":"True", "SCOPE_expert":"True", "SCOPE_hard":"True", "SCOPE_level":"True"
+}, "Bussola": {
+"bussolaOnTop":"True", "firstView":"ZeNE", "cameraButtons":"True", "LTRange":"0.51", "HTRange":"0.71", "zoom":"8", "cameraModes_mask":"TOP", "tm":"TOP", "showTag":"False", "enableTag":"True", "lookAtCamera":"True"
+}
